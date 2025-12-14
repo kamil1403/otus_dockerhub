@@ -53,7 +53,7 @@ docker run -d -p 80:80 --name my-alpine-site kamilibg/otus-nginx-alpine:v1
 # Проверка работы
 curl http://localhost
 
-Вывод консоли:
+# Вывод консоли:
 <h1>Otus Docker HW: Hello from Alpine!</h1>
 ```
 
