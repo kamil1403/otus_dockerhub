@@ -58,7 +58,7 @@ curl http://localhost
 ```
 
 <a id="four"></a>
-🧰 Шаг 4 - Публикация в Docker Hub
+## 🧰 Шаг 4 - Публикация в Docker Hub
 ```bash
 # Логин
 docker login -u kamilibg
