@@ -13,7 +13,7 @@
 4. Запушить образ в Docker Hub.
 
 ### ✅ Результат
-- [x] Образ собран на базе `nginx:alpine` и запущен.
+- [x] Образ собран на базе `nginx:alpine` и запущен. Результат см. на скриншоте 🖼️ ["Проверка работы.png"](https://github.com/kamil1403/otus_dockerhub/blob/main/screenshots/otus_dockerhub_1.png) и 🖼️ ["Nginx custom.png"](https://github.com/kamil1403/otus_dockerhub/blob/main/screenshots/otus_dockerhub_2.png)
 - [x] Теоретические вопросы разобраны.
 - [x] Образ загружен в Docker Hub: [kamilibg/otus-nginx-alpine](https://hub.docker.com/r/kamilibg/otus-nginx-alpine)
 
