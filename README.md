@@ -40,3 +40,31 @@
 ```bash
 FROM nginx:alpine
 COPY index.html /usr/share/nginx/html/index.html
+<a id="three"></a>
+
+🧰 Шаг 3 - Сборка и запуск
+Bash
+
+# Сборка образа
+docker build -t kamilibg/otus-nginx-alpine:v1 .
+
+# Запуск контейнера
+docker run -d -p 80:80 --name my-alpine-site kamilibg/otus-nginx-alpine:v1
+
+# Проверка работы
+curl http://localhost
+Вывод консоли:
+
+HTML
+
+<h1>Otus Docker HW: Hello from Alpine!</h1>
+<a id="four"></a>
+
+🧰 Шаг 4 - Публикация в Docker Hub
+Bash
+
+# Логин
+docker login -u kamilibg
+
+# Отправка образа
+docker push kamilibg/otus-nginx-alpine:v1
